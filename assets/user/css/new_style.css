@@ -1,0 +1,59 @@
+@font-face {
+    font-family: font-medium;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-Medium.woff2);
+}
+
+@font-face {
+    font-family: font-bold;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-ExtraBold.woff2);
+}
+
+@font-face {
+    font-family: font-Light;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-Light.woff2);
+}
+
+@font-face {
+    font-family: font-medium;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-SemiBold.woff2);
+}
+
+@font-face {
+    font-family: font-Regular;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-Regular.woff2);
+}
+
+@font-face {
+    font-family: font-ExtraLight;
+    src: url(../fonts/farsi/WebFonts/fonts/woff2/KalamehWebFaNum-ExtraLight.woff2);
+}
+html {
+    direction: rtl;
+}
+body {
+    font-family: font-Light;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.main_color {
+    color: #de7c05;
+}
+.f-14 {
+    font-size: 14px;
+}
+.f-12 {
+    font-size: 12px;
+}
+.f-13 {
+    font-size: 13px;
+}
+.f-bold {
+    font-family: font-bold;
+}
+
+.f-medium {
+    font-family: font-medium;
+}
+

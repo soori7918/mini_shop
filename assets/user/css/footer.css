@@ -1,0 +1,73 @@
+.footer {
+    background-color: #000000;
+    background-image: url(https://estate4istanbul.com/wp-content/uploads/2022/06/estate4istanbul2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-footer {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #000000;
+    opacity: 0.66;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.footer>p , .footer>h4 {
+    color: #fff;
+}
+.footer-text>h4 {
+    margin-bottom: 40px !important;
+}
+.footer-text>ul>li {
+    margin-bottom: 1rem;
+}
+.icon-svg {
+    width: 40px;
+    background: #fff;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Answer {
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 100;
+}
+@media screen and (max-width:575px){
+    .my-media {
+        margin: 32px auto;
+    }
+}
+.pt-90 {
+    padding-top: 90px;
+}
+.transform {
+    transform: rotate(180deg);
+}
+.img-bottom-slide {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 9;
+    bottom: -45px;
+}
+.footer-end {
+    background-color: #00000078;
+    border-top: dotted white 1px;
+}
+.footer-btn-circle {
+    width: 39px ;
+    height: 39px;
+}
+.footer-btn-circle:hover {
+    border: 0;
+    transform: scale(0.8);
+    transition: 0.2s;
+    background-color: unset !important;
+}

@@ -1,0 +1,551 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&family=Poppins:wght@400;500;600;700;800;900&display=swap");
+/*
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+/* ====================================================
+    Gutter Code
+==================================================== */
+.ltn__no-gutter > [class*='col-'] {
+  /* No padding only for child columns */
+  padding-left: 0;
+  padding-right: 0; }
+
+.ltn__no-gutter-all [class*='col-'] {
+  /* No padding for every columns */
+  padding-left: 0;
+  padding-right: 0; }
+
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 900;
+  src: url(../../fonts/eot/IRANSansWeb_Black.eot);
+  src: url(../../fonts/eot/IRANSansWeb_Black.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb_Black.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb_Black.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb_Black.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/eot/IRANSansWeb_Bold.eot);
+  src: url(../../fonts/eot/IRANSansWeb_Bold.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb_Bold.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb_Bold.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb_Bold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans1;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../../fonts/IRANSansWeb-Medium.eot);
+  src: url(../../fonts/IRANSansWeb-Medium.eot?#iefix) format('embedded-opentype'), url(../../fonts/IRANSansWeb-Medium.woff2) format('woff2'), url(../../fonts/IRANSansWeb-Medium.woff) format('woff'), url(../../fonts/IRANSansWeb-Medium.ttf) format('truetype')
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url(../../fonts/eot/IRANSansWeb_Medium.eot);
+  src: url(../../fonts/eot/IRANSansWeb_Medium.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb_Medium.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb_Medium.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb_Medium.ttf) format('truetype')
+}
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../../fonts/eot/IRANSansWeb_Light.eot);
+  src: url(../../fonts/eot/IRANSansWeb_Light.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb_Light.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb_Light.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb_Light.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url(../../fonts/eot/IRANSansWeb_UltraLight.eot);
+  src: url(../../fonts/eot/IRANSansWeb_UltraLight.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb_UltraLight.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb_UltraLight.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb_UltraLight.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/eot/IRANSansWeb.eot);
+  src: url(../../fonts/eot/IRANSansWeb.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/IRANSansWeb.woff2) format('woff2'), url(../../fonts/woff/IRANSansWeb.woff) format('woff'), url(../../fonts/ttf/IRANSansWeb.ttf) format('truetype')
+}
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 700;
+  src: url(../../fonts/eot/iranyekanwebbold.eot);
+  src: url(../../fonts/eot/iranyekanwebbold.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/iranyekanwebbold.woff2) format('woff2'), url(../../fonts/woff/iranyekanwebbold.woff) format('woff'), url(../../fonts/ttf/iranyekanwebbold.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url(../../fonts/eot/iranyekanweblight.eot);
+  src: url(../../fonts/eot/iranyekanweblight.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/iranyekanweblight.woff2) format('woff2'), url(../../fonts/woff/iranyekanweblight.woff) format('woff'), url(../../fonts/ttf/iranyekanweblight.ttf) format('truetype')
+}
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/eot/iranyekanwebregular.eot);
+  src: url(../../fonts/eot/iranyekanwebregular.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/iranyekanwebregular.woff2) format('woff2'), url(../../fonts/woff/iranyekanwebregular.woff) format('woff'), url(../../fonts/ttf/iranyekanwebregular.ttf) format('truetype')
+}
+@font-face {
+  font-family: Yekta;
+  font-style: normal;
+  font-weight: 400;
+  src: url(../../fonts/eot/HMSYekta-RegularItalic.eot);
+  src: url(../../fonts/eot/HMSYekta-RegularItalic.eot?#iefix) format('embedded-opentype'), url(../../fonts/woff2/HMSYekta-RegularItalic.woff2) format('woff2'), url(../../fonts/woff/HMSYekta-RegularItalic.woff) format('woff'), url(../../fonts/ttf/HMSYekta-RegularItalic.ttf) format('truetype')
+}
+@font-face {font-family: "Myriad Pro"; src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot"); src: url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.woff") format("woff"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a89cf050c859a23e4b6d9cf5989acf9e.svg#Myriad Pro") format("svg"); }
+/* ----------------------------------------------------
+    Normalize    0B2C3D
+---------------------------------------------------- */
+:root {
+  --ltn__primary-color: #000000;
+  --ltn__primary-color-2: #041113;
+  /* Darken */
+  --ltn__primary-color-3: #133236;
+  /* Lighten */
+  --ltn__secondary-color: #ff1300;
+  --ltn__secondary-color-2: #e91100;
+  /* Darken */
+  --ltn__secondary-color-3: #ce0f00;
+  /* Lighten */
+  --ltn__heading-color: #071c1f;
+  --ltn__paragraph-color: #5C727D;
+  --ltn__heading-font: 'IRANSans','Poppins', sans-serif;
+  --ltn__body-font: 'IRANSans','Nunito Sans', sans-serif;
+  /* Footer ACD2D8 8CB2B2  */
+  --ltn__color-1: #8cb2b2;
+  --ltn__color-2: #ACD2D8;
+  --ltn__color-3: #A3BCC0;
+  --ltn__color-4: #84A2A6;
+  --ltn__color-5: #5C727D;
+  /* Gradient Colors */
+  --gradient-color-1: linear-gradient(90deg, rgba(242,139,194,1) 0%, rgba(216,177,242,1) 50%);
+  --gradient-color-2: linear-gradient(to top, rgba(7,28,31,0) 0%, rgba(7,28,31,1) 90%);
+  --gradient-color-3: linear-gradient(to bottom, rgba(7,28,31,0) 0%, rgba(7,28,31,1) 90%);
+  --gradient-color-4: linear-gradient(to top, rgba(242,246,247,0) 0%, rgba(242,246,247,1) 90%);
+  --gradient-color-5: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 70%);
+  --gradient-color-6: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.3) 70%);
+  --section-bg-1: #F2F6F7;
+  --section-bg-2: #333b5b;
+  --section-bg-5: #FFF2F0;
+  --section-bg-6: #0B2C3D;
+  /* Black */
+  --section-bg-7: #282b38;
+  /* Black */
+  /* Border Colors */
+  --border-color-1: #e5eaee;
+  /* White */
+  --border-color-2: #1e2021;
+  /* Black */
+  --border-color-3: #5C617F;
+  /* Black */
+  --border-color-4: #eb6954;
+  /* Red */
+  --border-color-5: #bc3928;
+  /* Red */
+  --border-color-6: #103034;
+  /* Black */
+  --border-color-7: #d1dae0;
+  /* White */
+  --border-color-8: #f6f6f6;
+  /* White */
+  --border-color-9: #e4ecf2;
+  /* White */
+  --border-color-10: #ebeeee;
+  /* White */
+  --border-color-11: #ededed;
+  /* White */
+  --border-color-12: #e1e6ff;
+  /* White */
+  --border-color-13: #f1f8ff;
+  /* White */
+  /* Box Shadow Colors */
+  --ltn__box-shadow-1: 0 16px 32px 0 rgba(7, 28, 31, 0.1);
+  --ltn__box-shadow-2: 0 0 4px rgba(0, 0, 0, 0.1);
+  /* like border */
+  --ltn__box-shadow-3: 0 1px 6px 0 rgba(32, 33, 36, .28);
+  /* like border GGL */
+  --ltn__box-shadow-4: 0 5px 20px 0 rgba(23, 44, 82, 0.1);
+  --ltn__box-shadow-5: 0 8px 16px 0 rgba(93, 93, 93, 0.1);
+  --ltn__box-shadow-6: 0 0 25px 2px rgba(93, 93, 93, 0.2);
+  --ltn__box-shadow-7: 0 0 10px 0px rgba(93, 93, 93, 0.2);
+  /* Common Colors */
+  --black: #000000;
+  --black-2: #22355B;
+  --white: #fff;
+  --white-2: #F2F6F7;
+  --white-3: #e8edee;
+  --white-4: #e6ecf0;
+  --white-5: #f0f4f7;
+  --white-6: #f1f1f1;
+  --white-7: #F7F7F7;
+  --white-8: #FAFAFA;
+  --white-9: #F2F7FA;
+  --white-10: #EDEDED;
+  --red: #FF0000;
+  --red-2: #f34f3f;
+  --red-3: #DB483B;
+  --silver: #C0C0C0;
+  --gray: #808080;
+  --maroon: #800000;
+  --yellow: #FFFF00;
+  --olive: #808000;
+  --lime: #00FF00;
+  --green: #77C720;
+  --green-2: #008000;
+  --aqua: #00FFFF;
+  --teal: #008080;
+  --blue: #0000FF;
+  --navy: #000080;
+  --fuchsia: #B13BFF;
+  --purple: #800080;
+  --pink: #FFC0CB;
+  --nude: #ebc8b2;
+  --orange: #ffa500;
+  --ratings: #FFB800;
+  /* social media colors */
+  --facebook: #365493;
+  --twitter: #3CF;
+  --linkedin: #0077B5;
+  --pinterest: #c8232c;
+  --dribbble: #ea4c89;
+  --behance: #131418;
+  --google-plus: #dd4b39;
+  --instagram: #e4405f;
+  --vk: #3b5998;
+  --wechat: #7bb32e;
+  --youtube: #CB2027;
+  --email: #F89A1E;
+  --logo_color:rgb(178,90,1);
+  --logo_color:rgb(178,90,1);
+  --logo_color_light:rgb(255,145,1);
+  --logo_color_light1:rgb(249,131,0);
+  --logo_color_dark:rgb(249,131,0);
+}
+
+/* -------------------------------------
+    Typography
+------------------------------------- */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-family: var(--ltn__body-font); }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -moz-osx-font-smoothing: grayscale;
+  /* Firefox */
+  -webkit-font-smoothing: antialiased;
+  /* WebKit  */ }
+
+body {
+  direction: rtl;
+  color: var(--ltn__paragraph-color);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  font-family: var(--ltn__body-font);
+  line-height: 1.8;
+  margin: 0 auto; }
+.d-ltr
+{
+  direction: ltr!important;
+}
+.d-rtl
+{
+  direction: rtl!important;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  text-align: right;
+  direction: rtl!important;
+  letter-spacing:0!important;;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: right;
+  direction: rtl!important;
+  letter-spacing:0!important;
+}
+
+::placeholder {
+  text-align: right;
+  direction: rtl!important;
+  letter-spacing:0!important;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  clear: both;
+  font-family: var(--ltn__heading-font);
+  font-weight: 700;
+  line-height: 1.3;
+  }
+
+p {
+  color: var(--ltn__paragraph-color);
+  margin-bottom: 1.5em;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: var(--ltn__paragraph-color);
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; }
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit; }
+
+/*a:hover {*/
+  /*color: var(--ltn__secondary-color); }*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: var(--ltn__body-font); }
+
+pre,
+code,
+kbd,
+tt,
+var,
+samp {
+  font-family: var(--ltn__body-font); }
+
+pre {
+  word-break: break-word; }
+
+a i {
+  padding: 0 2px; }
+
+img {
+  max-width: 100%; }
+
+
+.image_agent_card{
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.image_agent_card img{
+ width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.blog_image{
+  max-height: 400px;
+  height: 400px;
+  width: 100%;
+}
+
+.blog_image img{
+  height: 100%;
+  width: 100%;
+}
+.category_item{
+  border-bottom: 1px dashed #ededed;
+}
+
+
+.project_image{
+  height: 250px;
+}
+
+.project_image img{
+  height: 100%;
+  width: 100%;
+  transition: .3s ease-in-out;
+  /*transform: a;*/
+}
+.project_image img:hover{
+  height: 100%;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.w-100{
+  width: 100%;
+}
+.project_content_footer{
+  border-top: 1px solid #f9f9f9;
+
+}
+.project_icon{
+  border: 1px solid #f9f9f9;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project_content_footer .icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+.project_image_detail{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: rgba(0,0,0,0.3);
+}
+.project_image_detail_1{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 10px;
+}
+.city_image_detail_1{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  left: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+}
+.swiper__container{
+  z-index: 99;
+}
+.project_detail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project_detail li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.project_detail li:after{
+  content: "";
+  width: 2px;
+  height: 15px;
+  background-color: #efe9e9;
+  margin-right: 10px;
+}
+.project_detail li:last-child {
+  content: '';
+  margin-right: 10px;
+  width: 0;
+}
+.container-box-1{
+  width: 100%;
+  background: #fafafa;
+  padding: 30px 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.social_item{
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  color: var(--logo_color_light);
+  margin: 10px;
+}
+.social_item:hover{
+  background-color: var(--logo_color_light);
+  color: white;
+}
+.contact_icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  color: var(--logo_color_light);
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.contact_icon:hover{
+  background-color: var(--logo_color_light);
+  color: white;
+  cursor: pointer;
+}
+
+.about_us_image{
+  width: 100%;
+  height: 300px;
+}
+
+.about_us_image:hover{
+ opacity: 0.8;
+  cursor: pointer;
+}
+.about_us_image img{
+   width: 100%;
+  height: 100%;
+}
+
+.conseling_section{
+  height: 500px;
+  max-height: 500px;
+}
+
+.conseling_section img{
+ width: 100%;
+  height: 100%;
+}
+
+.project_list_card{
+  overflow: hidden;
+}
+
+.img_card{
+  height: 250px;
+  width: 100%;
+}
+.img_card img{
+  height: 100%;
+  width: 100%;
+}
